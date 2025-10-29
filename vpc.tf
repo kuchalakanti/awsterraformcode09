@@ -4,3 +4,8 @@ resource "aws_vpc" "name" {
       Name = "Krishna-VPc"
     }  
 }
+
+resource "aws_subnet" "name" {
+    vpc_id = aws_vpc.name
+  
+}
