@@ -3,5 +3,6 @@ resource "aws_vpc" "name" {
     tags = {
       Name = "Krishna-VPc"
       owner = "prod"
+      owner = "dev"
     }  
 }
